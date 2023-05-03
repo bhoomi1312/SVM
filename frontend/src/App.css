@@ -34,3 +34,6 @@ body, html {
     color: white;
      white-space: nowrap;
 }
+.form-label {
+  width: 100px;
+}

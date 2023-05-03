@@ -1,17 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './components/Navigation';
-import Home from "./components/Home";
+import Navigation from './components/Navigation/Navigation';
+import Home from "./components/Home/Home";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import Manage from "./components/Manage";
-import BoardManage from "./components/BoardManage";
-import ZoneManage from "./components/ZoneManage";
-import WardManage from "./components/WardManage";
-import DepartmentManage from "./components/DepartmentManage";
-import StaffManage from "./components/StaffManage";
-import DesignationManage from "./components/DesignationManage";
-import TariffManage from "./components/TariffManage";
-import AccountManage from "./components/AccountManage";
+import Manage from "./components/Corporation/Manage";
+import BoardManage from "./components/Board/BoardManage";
+import ZoneManage from "./components/Zone/ZoneManage";
+import WardManage from "./components/Ward/WardManage";
+import DepartmentManage from "./components/Department/DepartmentManage";
+import StaffManage from "./components/Staff/StaffManage";
+import DesignationManage from "./components/Designation/DesignationManage";
+import TariffManage from "./components/Tariff/TariffManage";
+import AccountManage from "./components/Account/AccountManage";
 
 function App() {
   return (
