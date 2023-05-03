@@ -1,0 +1,42 @@
+.carousel-image {
+  max-height: 60%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.container-fluid.side-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1300px; /* set the max-width to limit the width of the container */
+  table-layout: auto;
+}
+.react-bootstrap-table{
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.react-bootstrap-table thead, tbody ,td {
+
+      max-width: 100px;
+      min-width: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

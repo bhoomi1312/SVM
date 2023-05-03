@@ -1,0 +1,36 @@
+body, html {
+  height: 110%;
+  width: 100%;
+  margin: 0;
+
+}
+
+.app-logo {
+   padding-left: 50px;
+}
+.sidebar {
+   display: flex;
+   height: 100vh;
+   float: left;
+   overflow: 'scroll initial';
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+.side-container {
+   padding-top: 20px;
+}
+
+.side-row {
+   padding: 30px;
+}
+
+.react-bootstrap-table thead, tbody ,td {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1021;
+    color: white;
+     white-space: nowrap;
+}
