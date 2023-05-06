@@ -4,12 +4,9 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './Navigation.css';
 import logo from '../../static/logo.png';
 
-
-
-
 const Navigation = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="sm" id="my-nav">
+    <Navbar bg="dark" variant="dark" expand="sm" >
       <Navbar.Brand className="app-logo" href="/">
         <img
           src={logo}
@@ -34,7 +31,7 @@ const Navigation = () => {
             <NavDropdown.Item href="/DepartmentManage">Department</NavDropdown.Item>
             <NavDropdown.Item href="/DesignationManage">Designation</NavDropdown.Item>
           </NavDropdown>
-            <Nav.Link href="/StaffManage">Staff</Nav.Link>
+          <Nav.Link href="/StaffManage">Staff</Nav.Link>
           <NavDropdown title="Application" id="application-dropdown">
             <NavDropdown.Item href="/TariffManage">Tariff</NavDropdown.Item>
             <NavDropdown.Item href="/AccountManage">Account</NavDropdown.Item>

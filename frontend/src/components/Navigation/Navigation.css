@@ -27,3 +27,17 @@
   background-color: #00f;
   color: #fff;
 }
+.app-logo img {
+  margin-right: 15px;
+}
+
+
+
+.app-logo {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px; /* Add 2px space between letters */
+  margin-right: 500px;
+}
+
